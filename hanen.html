@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hannen</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body{
+            background-color: black;
+        }
+        .name{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h1{
+           font-size: 100px;
+           text-align: center;
+           color: rgb(247, 162, 176);
+        }
+        span{
+            color: rgba(255, 0, 0, 0.695);
+        }
+        .image{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .image img{
+            width: 540px;
+            height: 540px;
+            border-radius: 8px;
+        }
+        i{
+            font-size: 300px;
+            color: red;
+            padding: 10px;
+        }
+        .i-2{
+            color: rgba(255, 255, 0, 0.803);
+        }
+        .name i{
+            color: rgba(0, 128, 0, 0.788);
+            text-align: center;
+            font-size: 200px;
+        }
+        @media (max-width: 500px){
+           .image{
+            flex-direction: column;
+           }
+           .name .tree-2{
+            display: none;
+           }
+           .name i{
+              font-size: 100px;
+           }
+           h1{
+            font-size: 80px;
+           }
+        }
+    </style>
+</head>
+<body>
+    <div class="name">
+        <i class='fa fa-tree tree-2'></i>
+        <h1>Haneen <span>Alatrash</span></h1>
+        <i class='fa fa-tree '></i>
+    </div>
+    <div class="image">
+        <i class='fa fa-star i-2'></i>
+        <img src="./126819817_1607428546130634_1299902410346791049_n.jpg" alt="">
+        <i class='fa fa-heart'></i>
+    </div>
+</body>
+</html>
